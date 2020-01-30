@@ -1,7 +1,7 @@
 import express, { Application, Request, Response, NextFunction } from "express";
 import * as bodyParser from "body-parser"
-import errorMiddleware from "../midlewares/error-handle-midleware";
-import AuthRouter from '../routes/auth-router';
+import errorMiddleware from "./midlewares/error-handle-midleware";
+import AuthRouter from './routes/auth-router';
 
 class App {
     public app: express.Application;
